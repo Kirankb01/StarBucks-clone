@@ -1,0 +1,123 @@
+.bottom-bar{
+  height: 744.26px;
+  width: 100%;
+  background-color: rgb(14, 56, 44);
+  margin-top: 142px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.inner-box{
+  height: 568.26px;
+  width: 90%;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerbox-topside{
+  height:477.59px;
+  display: flex;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  line-height: 50px;
+}
+.innerbox-topside a{
+  color: rgb(255, 255, 255);
+  display: block;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.innerbox-topside a:hover{
+  color: rgb(149, 147, 147);
+}
+
+.two-lines-issue{
+  line-height: normal !important;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.logo{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+}
+.logo img{
+  height: 62px;
+  width: 62px;
+  cursor: pointer;
+}
+.about-us{
+  flex: 1;
+  height: 100%;
+}
+
+.responsibility{
+  flex: 1;
+  height: 100%;
+}
+.quick-links{
+  flex: 1;
+  height: 100%;
+}
+.social-media{
+  width: 153px;
+  height: 100%;
+}
+
+.social-media img{
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.image-playstore{
+  width: 202.99px;
+  height: 100%;
+}
+.image-playstore img{
+  margin-top: 10px;
+  height: 62px;
+  width: 194px;
+  cursor: pointer;
+}
+
+.innerbox-bottomside{
+  flex: 1;
+  border-top-width: 0.666667px;
+  border-top-style: solid;
+  border-color: rgb(160, 160, 160);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);;
+}
+.innerbox-bottomside ul{
+  display: flex;
+  width: 440px;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.innerbox-bottomside ul li{
+  display: inline-block;
+  font-size: 12px;
+  border-right-style: solid;
+  border-right-width: 0.666667px;
+  border-color: rgb(160, 160, 160);
+  padding-right: 17px;
+  transition: 0.3s;
+}
+.last-list-element{
+  border-style: none !important;
+}
+.innerbox-bottomside p{
+  font-size: 9.6px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.innerbox-bottomside p,li:hover{
+  color: rgb(149, 147, 147);
+  cursor: pointer;
+}

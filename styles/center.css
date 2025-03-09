@@ -1,0 +1,83 @@
+.preview-box{
+  height: 380px;
+  width: 100%;
+  background-color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.outer-border{
+  height: 223px;
+  width: 1096px;
+  border-color: grey;
+  border-radius: 7px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+  
+}
+.first-preview-container{
+  margin-top: 5px;
+  height: 210px;
+  width:1096px;
+  background-color: rgb(9, 144, 127);
+  display: flex;
+
+}
+.first-preview{
+  width: 15%;
+  height: 210px;
+
+}
+.first-preview-image{
+  height: 208.771px;
+  
+}
+
+.about-bev{
+  width: 80%;
+  height: 210px;
+}
+.about-bev p{
+  line-height: 50px;
+  color: white;
+  font-size: 14px;
+}
+.main-title{
+  font-size: 20px !important;
+}
+.button{
+  width: 30%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+}
+
+.t-c-para{
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+.preview-know-more-button{
+  height: 49px;
+  width: 200px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  border: none;
+  font-size: 12px;
+  background-color:rgb(255, 255, 255) ;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.underline{
+  margin-left: 400px;
+  margin-right: 460px;
+  height: 2px; 
+  background-color:#009966;
+  margin-top: 20px;
+}

@@ -1,0 +1,47 @@
+.reorder-section-handcrafted{
+  height: 258.792px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.reorder-section-innerbox{
+  height: 223px;
+  width: 1096px;
+  border-color: grey;
+  border-radius: 7px;
+  
+}
+
+.heading-handcrafted{
+  height: 52.79px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.listes-handcrafted{
+  height: 158px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  cursor: pointer;
+}
+.listes-handcrafted img{
+  height: 108px;
+  border-radius: 70px;
+  margin-left: 33px;
+  object-fit: cover;
+}
+.listes-handcrafted img:hover{
+  border: solid;
+  border-color:rgb(9, 144, 127) ;
+  height: 105px;
+}
+.listes-handcrafted p{
+  text-align: center;
+  font-weight: 500;
+}
