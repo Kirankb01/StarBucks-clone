@@ -12,16 +12,20 @@
   background-color: rgb(255, 255, 255);
   z-index: 2;
 }
-.logo{
-  height: 60px;
-  width: 200px;
+.logo-topbar{
+  height: 72px;
+  width: 130px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 
-.logo img{
+.logo-topbar img{
+  height: 40px;
+  width: 40px;
   cursor: pointer;
-  padding-left: 110px;
-  padding-top: 8px;
+  
 }
 
 .list ul{
